@@ -11,8 +11,8 @@ use Illuminate\Http\Request;
  * Class UserController
  *
  * @package App\Http\Controllers
- * @author Vinícius Siqueira
- * @link https://github.com/ViniciusSCS
+ * @author João Vitor Luiz
+ * @link https://github.com/Joaovlss4
  * @date 2024-08-23 21:48:54
  * @copyright UniEVANGÉLICA
  */
@@ -57,7 +57,7 @@ class UserController extends Controller
 
         return [
             'status' => 200,
-            'menssagem' => 'Usuário cadastrado com sucesso!!',
+            'mensage' => 'Usuário cadastrado com sucesso!!',
             'user' => $user
         ];
     }
